@@ -1,16 +1,9 @@
-import random, time
-strt=time.time()
-#creating list
-list=[]
-for i in range(10**4):
-	a=random.randrange(10**4)
-	if a not in list:
-		list.append(a)
-print("list is created")
-print(f"list has {len(list)} elements in it.")
-
+list=[29,51,24,57,99,32,67,240,4,79,8,5,32,1]
 #sorting the list
-def sort():
+
+
+	
+	def sort():
 	global sorted_list,list
 	for i in range(len(list)-1):
 		n1,n2=list[i],list[i+1]
@@ -21,6 +14,5 @@ def sort():
 
 for i in range(len(list)):
 	sort()
-end=time.time()
+
 print(list)
-print("time taken is ",end-strt)
