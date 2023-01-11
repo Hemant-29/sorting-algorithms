@@ -1,9 +1,9 @@
 list=[29,51,24,57,99,32,67,240,4,79,8,5,32,1]
 #sorting the list
-
+def sort():
 
 	
-	def sort():
+	
 	global sorted_list,list
 	for i in range(len(list)-1):
 		n1,n2=list[i],list[i+1]
